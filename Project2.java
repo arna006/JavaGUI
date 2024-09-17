@@ -1,13 +1,14 @@
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import javax.swing.*; // For GUI
+import java.awt.*; // Components, layout and colors etc
+import java.awt.event.ActionEvent; // Represent an action (Button click)
+import java.awt.event.ActionListener;  // Do the action -- button slicks
 
 public class Project2 implements ActionListener {
 
     private int klikk = 0;
     private JLabel label = new JLabel("Antall klikk: 0");
-    private  JFrame frame = new JFrame();
+    private  JFrame frame = new JFrame(); // Creates a window (JFrame) -main frame of the GUI
+
     Project2() {
 
         JButton button = new JButton("Klikk her!!");
@@ -41,3 +42,7 @@ public class Project2 implements ActionListener {
         label.setText("Antall klikk: " + klikk);
     }
 }
+
+
+
+
