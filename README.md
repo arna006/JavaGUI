@@ -1,5 +1,6 @@
 # JavaGUI
-Java project 
+
+ Tried making a GUI in JAVA!!!
 
 This project is made for practice purposes, using a simple GUI application built with Java Swing. The main objective of this project is to allow the user to interact with a button in the interface. 
 
